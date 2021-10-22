@@ -9,15 +9,15 @@ export default {
     subAddressPrefix: 0x1080,
     blockTarget: 60,
     updateInterval: 15000, // Auto refresh interval in milliseconds
-    explorerApi: 'https://us-central1-nerva-248022.cloudfunctions.net/nervaApi',
+    explorerApi: 'https://api.nerva.tools/daemon/explorer/index.php',
     websiteUrl: 'https://getnerva.org',
     footerAppTitle: 'NERVA Block Explorer',
-    copyright: '2019 NERVA',
+    copyright: '2021 NERVA',
     footerLinks: [
         {
-            name: 'BitBucket',
-            icon: 'fab fa-bitbucket',
-            url: 'https://bitbucket.org/nerva-project'
+            name: 'GitHub',
+            icon: 'fab fa-github',
+            url: 'https://github.com/nerva-project'
         },
         {
             name: 'Discord',
