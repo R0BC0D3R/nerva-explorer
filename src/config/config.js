@@ -20,9 +20,14 @@ export default {
             url: 'https://github.com/nerva-project'
         },
         {
+            name: 'Docs',
+            icon: 'fas fa-book',
+            url: 'https://docs.getnerva.org'
+        },
+        {
             name: 'Discord',
             icon: 'fab fa-discord',
-            url: 'https://discord.gg/jsdbEns/'
+            url: 'https://discord.com/invite/jsdbEns/'
         },
         {
             name: 'Reddit',
