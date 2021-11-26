@@ -10,10 +10,15 @@ export default {
     blockTarget: 60,
     updateInterval: 15000, // Auto refresh interval in milliseconds
     explorerApi: 'https://api.nerva.tools/daemon/explorer/index.php',
-    websiteUrl: 'https://getnerva.org',
+    websiteUrl: 'https://explorer.nerva.tools/',
     footerAppTitle: 'NERVA Block Explorer',
     copyright: '2021 NERVA',
     footerLinks: [
+        {
+            name: 'Nerva Website',
+            icon: 'fab fa-internet-explorer',
+            url: 'https://nerva.one'
+        },
         {
             name: 'GitHub',
             icon: 'fab fa-github',
@@ -22,7 +27,7 @@ export default {
         {
             name: 'Docs',
             icon: 'fas fa-book',
-            url: 'https://docs.getnerva.org'
+            url: 'https://docs.nerva.one'
         },
         {
             name: 'Discord',
