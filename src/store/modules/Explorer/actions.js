@@ -47,8 +47,9 @@ const actions = {
     getGeneratedCoins: ({ commit, state }) => {
 
         return state.explorerService.getGeneratedCoins().then((coins) => {
-
-            commit('setGeneratedCoins', coins.coins);
+            
+            // Supply is now returned as regualar deciman number so change it to atomic units by multiplying by 1000000000000
+            commit('setGeneratedCoins', coins * 1000000000000);
         }).catch((err) => {
 
             console.log('get generated coins error');
