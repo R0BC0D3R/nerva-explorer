@@ -1,4 +1,4 @@
-# blockexploder
+# Nerva Block Explorer
 
 ![explorer screenshot](docs/img/exploder-screenshot.png)
 
@@ -13,8 +13,8 @@ npm install vue-cli -g
 #### Clone the project and install dependencies
 
 ```bash
-git clone https://github.com/jerme404/blockexploder
-cd blockexploder
+git clone https://github.com/nerva-project/nerva-explorer.git
+cd nerva-explorer
 npm install
 ```
 

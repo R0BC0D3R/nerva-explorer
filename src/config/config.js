@@ -9,10 +9,10 @@ export default {
     subAddressPrefix: 0x1080,
     blockTarget: 60,
     updateInterval: 15000, // Auto refresh interval in milliseconds
-    explorerApi: 'https://api.nerva.tools/daemon/explorer/index.php',
-    websiteUrl: 'https://explorer.nerva.tools/',
-    footerAppTitle: 'NERVA Block Explorer',
-    copyright: '2021 NERVA',
+    explorerApi: 'https://api.nerva.one/daemon/explorer/index.php',
+    websiteUrl: 'https://explorer.nerva.one/',
+    footerAppTitle: 'Nerva Block Explorer',
+    copyright: '2022 The Nerva Project',
     footerLinks: [
         {
             name: 'Nerva Website',
